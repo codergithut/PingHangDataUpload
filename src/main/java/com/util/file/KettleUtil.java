@@ -1,4 +1,4 @@
-package com.util;
+package com.util.file;
 
 import org.pentaho.di.core.KettleEnvironment;
 import org.pentaho.di.core.plugins.PluginFolder;
