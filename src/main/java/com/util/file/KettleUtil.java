@@ -33,6 +33,7 @@ public class KettleUtil {
          * 插件的位置，也就是plugin本地路径
          */
         StepPluginType.getInstance().getPluginFolders().add(new PluginFolder("E:\\kettle\\data-integration\\system\\karaf\\system\\pentaho", false, true));
+        StepPluginType.getInstance().getPluginFolders().add(new PluginFolder("E:\\data-integration\\plugins\\kettle-json-plugin", false, true));
         KettleEnvironment.init();
         EnvUtil.environmentInit();
         TransMeta transMeta = new TransMeta(transFileName);
